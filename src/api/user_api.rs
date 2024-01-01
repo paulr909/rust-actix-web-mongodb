@@ -1,4 +1,4 @@
-use crate::{models::user_model::User, repository::mongodb_repo::MongoRepo};
+use crate::{db::mongo_database::MongoRepo, models::user_model::User};
 use actix_web::{
     delete, get, post, put,
     web::{Data, Json, Path},
