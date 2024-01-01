@@ -1,0 +1,3 @@
+DELETE http://localhost:8080/user/6592d5c1ad599fe9246c1ef1
+Content-Type: application/json
+
